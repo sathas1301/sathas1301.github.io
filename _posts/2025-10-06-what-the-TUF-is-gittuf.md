@@ -1,5 +1,5 @@
 ---
-title: "gittuf what TUF(WIP)"
+title: "What the TUF is gittuf"
 date: 2025-10-06 10:00:00 +1000
 categories: [Blog]
 tags: [gittuf, git, supplychainsecurity, tuf]
