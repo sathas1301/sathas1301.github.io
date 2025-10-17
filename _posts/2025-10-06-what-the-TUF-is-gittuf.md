@@ -24,7 +24,6 @@ gittuf is a security layer for git which adapts TUF(The Update Framework) featur
 
 **What it provides**  
 - Repository Activity
-- reference
 - refs/gittuf/reference-state-log
 - every commit is signed and recorded
 - Repository policy
