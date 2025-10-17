@@ -1,5 +1,5 @@
 ---
-title: "Want some Macaroons? (WIP)"
+title: "Want some Macaroons?"
 date: 2025-10-14 10:00:00 +1000
 categories: [Blog]
 tags: [identity, appsec, tokens, macaroons, jwt, google]
@@ -29,7 +29,7 @@ Then came along `JWTs` which introduced **stateless authentication** where any s
 Imagine a single token being valid for multiple principals/identities, each service adds its own conditions/caveats which allows or denies access to the principals. This delegation is the main feature offered by Macaroons.   
 Macaroon has a `Root Key` which is used for both issuing and verifying it and the caveats are signed and chained accordingly.
 
-<mark>Don't take it wrong but Token standard you want to use depends on the system you are working with, Macaroon cannot be source of truth solution for every usecase. Also, there are a lot of emerging trends like Quantum-Resistant Tokens, AI-enhanced tokens</mark>.
+<mark>Don't get me wrong about statement about future. Token standard you want to use depends on the system and usecase you are working with, Macaroon cannot be the solution for every usecase. Also, there are a lot of emerging trends like Quantum-Resistant Tokens, AI-enhanced tokens</mark>.
 
 To simplify,   
 **JWT** is Static proof of who you are what you can do (Because JWT is used for both Authentication and Authorization)   
